@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="pref_default_pane"
+        android:title="@string/pref_default_pane_title"
+        android:summary="@string/pref_default_pane_summary"
+        android:dialogTitle="@string/pref_default_pane_title"
+        android:defaultValue="MY_LIBRARY"
+        android:entries="@array/panes_entries"
+        android:entryValues="@array/panes_values" />
+    <ListPreference
+        android:key="pref_library_default_tab"
+        android:title="@string/pref_library_default_tab_title"
+        android:summary="@string/pref_library_default_tab_summary"
+        android:dialogTitle="@string/pref_library_default_tab_title"
+        android:defaultValue="artists"
+        android:entries="@array/library_tabs_entries"
+        android:entryValues="@array/library_tabs_values" />
+
+    <PreferenceScreen
+        android:title="@string/pref_about_title"
+        android:summary="@string/pref_about_summary">
+        <Preference
+            android:key="pref_support"
+            android:title="@string/pref_support_title"
+            android:summary="@string/pref_support_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://forum.xda-developers.com/xposed/modules/google-play-music-listen-t2758674" />
+        </Preference>
+        <Preference
+            android:key="pref_about_icon"
+            android:title="@string/pref_about_icon_title"
+            android:summary="@string/pref_about_icon_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.freepik.com/" />
+        </Preference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_show_app_icon"
+            android:title="@string/pref_show_app_icon_title"
+            android:summary="@string/pref_show_app_icon_summary" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="library_tabs_entries">
+        <item>@string/genres</item>
+        <item>@string/artists</item>
+        <item>@string/albums</item>
+        <item>@string/songs</item>
+    </string-array>
+    <string-array name="library_tabs_values">
+        <item>genres</item>
+        <item>artists</item>
+        <item>albums</item>
+        <item>songs</item>
+    </string-array>
+
+    <string-array name="panes_entries">
+        <item>@string/now_playing</item>
+        <item>@string/my_library</item>
+        <item>@string/playlists</item>
+        <item>@string/instant_mixes</item>
+        <item>@string/radio</item>
+        <item>@string/explore</item>
+    </string-array>
+    <string-array name="panes_values">
+        <item>MAINSTAGE</item>
+        <item>MY_LIBRARY</item>
+        <item>PLAYLISTS</item>
+        <item>INSTANT_MIXES</item>
+        <item>RADIO</item>
+        <item>EXPLORE</item>
+    </string-array>
+
+</resources>

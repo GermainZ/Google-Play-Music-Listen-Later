@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Main settings screen -->
+    <string name="app_name">Google Play Music Listen Later</string>
+    <string name="xposed_description">Open Google Play Music to the My Library screen instead of the Listen Now screen</string>
+    <string name="pref_default_pane_title">Default Pane</string>
+    <string name="pref_default_pane_summary">Select the default navigation drawer pane to open</string>
+    <string name="pref_library_default_tab_title">Default My Library tab</string>
+    <string name="pref_library_default_tab_summary">Select the tab to show by default for the My Library screen</string>
+    <string name="pref_about_title">About</string>
+
+    <!-- About screen -->
+    <string name="pref_about_summary">About this module</string>
+    <string name="pref_support_title">@string/app_name</string>
+    <string name="pref_support_summary">Coded by GermainZ</string>
+    <string name="pref_about_icon_title">Module Icon</string>
+    <string name="pref_about_icon_summary">Icon made by Freepik from Flaticon.com</string>
+    <string name="pref_show_app_icon_title">Show launcher icon</string>
+    <string name="pref_show_app_icon_summary">Disable to hide this module\'s launcher icon</string>
+
+    <!-- List entries -->
+    <string name="genres">Genres</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="my_library">My Library</string>
+    <string name="playlists">Playlists</string>
+    <string name="instant_mixes">Instant Mixes</string>
+    <string name="radio">Radio</string>
+    <string name="explore">Explore</string>
+
+</resources>
