@@ -4,7 +4,7 @@
 
     <!-- Main settings screen -->
     <string name="app_name">Google Play Music Listen Later</string>
-    <string name="xposed_description">Open Google Play Music to the My Library screen instead of the Listen Now screen</string>
+    <string name="xposed_description">Change the default Google Play Music pane and tabs</string>
     <string name="pref_default_pane_title">Default Pane</string>
     <string name="pref_default_pane_summary">Select the default navigation drawer pane to open</string>
     <string name="pref_library_default_tab_title">Default My Library tab</string>
