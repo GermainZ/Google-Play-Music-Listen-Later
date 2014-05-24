@@ -15,8 +15,41 @@
         <item>songs</item>
     </string-array>
 
+    <string-array name="instant_mixes_tabs_entries">
+        <item>@string/my_mixes</item>
+        <item>@string/recommended</item>
+    </string-array>
+    <string-array name="instant_mixes_tabs_values">
+        <item>instant_mixes</item>
+        <item>recommended</item>
+    </string-array>
+
+    <string-array name="radio_tabs_entries">
+        <item>@string/genres</item>
+        <item>@string/my_stations</item>
+        <item>@string/recommended</item>
+    </string-array>
+    <string-array name="radio_tabs_values">
+        <item>genres</item>
+        <item>stations</item>
+        <item>recommended</item>
+    </string-array>
+
+    <string-array name="explore_tabs_entries">
+        <item>@string/genres</item>
+        <item>@string/featured</item>
+        <item>@string/recommended</item>
+        <item>@string/new_releases</item>
+    </string-array>
+    <string-array name="explore_tabs_values">
+        <item>genres</item>
+        <item>top_charts</item>
+        <item>recommended</item>
+        <item>new_releases</item>
+    </string-array>
+
     <string-array name="panes_entries">
-        <item>@string/now_playing</item>
+        <item>@string/listen_now</item>
         <item>@string/my_library</item>
         <item>@string/playlists</item>
         <item>@string/instant_mixes</item>

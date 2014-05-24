@@ -9,6 +9,12 @@
     <string name="pref_default_pane_summary">Select the default navigation drawer pane to open</string>
     <string name="pref_library_default_tab_title">Default My Library tab</string>
     <string name="pref_library_default_tab_summary">Select the tab to show by default for the My Library screen</string>
+    <string name="pref_instant_mixes_default_tab_title">Default Instant Mixes tab</string>
+    <string name="pref_instant_mixes_default_tab_summary">Select the tab to show by default for the Instant Mixes screen</string>
+    <string name="pref_radio_default_tab_title">Default Radio tab</string>
+    <string name="pref_radio_default_tab_summary">Select the tab to show by default for the Radio screen</string>
+    <string name="pref_explore_default_tab_title">Default Explore tab</string>
+    <string name="pref_explore_default_tab_summary">Select the tab to show by default for the Explore screen</string>
     <string name="pref_about_title">About</string>
 
     <!-- About screen -->
@@ -25,7 +31,12 @@
     <string name="artists">Artists</string>
     <string name="albums">Albums</string>
     <string name="songs">Songs</string>
-    <string name="now_playing">Now Playing</string>
+    <string name="my_mixes">My Mixes</string>
+    <string name="recommended">Recommended</string>
+    <string name="my_stations">My Stations</string>
+    <string name="featured">Featured</string>
+    <string name="new_releases">New Releases</string>
+    <string name="listen_now">Listen Now</string>
     <string name="my_library">My Library</string>
     <string name="playlists">Playlists</string>
     <string name="instant_mixes">Instant Mixes</string>

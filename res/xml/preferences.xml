@@ -18,6 +18,31 @@
         android:defaultValue="artists"
         android:entries="@array/library_tabs_entries"
         android:entryValues="@array/library_tabs_values" />
+    <ListPreference
+        android:key="pref_instant_mixes_default_tab"
+        android:title="@string/pref_instant_mixes_default_tab_title"
+        android:summary="@string/pref_instant_mixes_default_tab_summary"
+        android:dialogTitle="@string/pref_instant_mixes_default_tab_title"
+        android:defaultValue="instant_mixes"
+        android:entries="@array/instant_mixes_tabs_entries"
+        android:entryValues="@array/instant_mixes_tabs_values" />
+    <ListPreference
+        android:key="pref_radio_default_tab"
+        android:title="@string/pref_radio_default_tab_title"
+        android:summary="@string/pref_radio_default_tab_summary"
+        android:dialogTitle="@string/pref_radio_default_tab_title"
+        android:defaultValue="stations"
+        android:entries="@array/radio_tabs_entries"
+        android:entryValues="@array/radio_tabs_values" />
+    <ListPreference
+        android:key="pref_explore_default_tab"
+        android:title="@string/pref_explore_default_tab_title"
+        android:summary="@string/pref_explore_default_tab_summary"
+        android:dialogTitle="@string/pref_explore_default_tab_title"
+        android:defaultValue="top_charts"
+        android:entries="@array/explore_tabs_entries"
+        android:entryValues="@array/explore_tabs_values" />
+
 
     <PreferenceScreen
         android:title="@string/pref_about_title"
