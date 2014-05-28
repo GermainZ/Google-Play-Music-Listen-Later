@@ -18,7 +18,7 @@ import static de.robv.android.xposed.XposedHelpers.setObjectField;
 
 public class XposedMod implements IXposedHookLoadPackage {
 
-    private static final XSharedPreferences PREFS = new XSharedPreferences("com.germainz.gmusiclistenlater");
+    private static XSharedPreferences PREFS;
     private static final String PREF_DEFAULT_PANE = "pref_default_pane";
     private static final String DEFAULT_PANE = "MY_LIBRARY";
 
@@ -50,6 +50,8 @@ public class XposedMod implements IXposedHookLoadPackage {
     public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
         if (!lpparam.packageName.equals("com.google.android.music"))
             return;
+
+        PREFS = new XSharedPreferences("com.germainz.gmusiclistenlater");
 
         findAndHookMethod("com.google.android.music.ui.HomeActivity", lpparam.classLoader,
                 "onCreate", Bundle.class, new XC_MethodHook() {
