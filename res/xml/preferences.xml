@@ -42,7 +42,10 @@
         android:defaultValue="top_charts"
         android:entries="@array/explore_tabs_entries"
         android:entryValues="@array/explore_tabs_values" />
-
+    <EditTextPreference
+        android:key="pref_default_playlist"
+        android:title="@string/pref_default_playlist_title"
+        android:summary="@string/pref_default_playlist_summary" />
 
     <PreferenceScreen
         android:title="@string/pref_about_title"

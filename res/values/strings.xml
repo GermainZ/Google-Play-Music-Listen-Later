@@ -15,6 +15,8 @@
     <string name="pref_radio_default_tab_summary">Select the tab to show by default for the Radio screen</string>
     <string name="pref_explore_default_tab_title">Default Explore tab</string>
     <string name="pref_explore_default_tab_summary">Select the tab to show by default for the Explore screen</string>
+    <string name="pref_default_playlist_title">Default playlist</string>
+    <string name="pref_default_playlist_summary">Opens automatically when you open the Playlists pane. Leave empty to disable</string>
     <string name="pref_about_title">About</string>
 
     <!-- About screen -->
